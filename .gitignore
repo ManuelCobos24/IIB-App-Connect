@@ -1,1 +1,3 @@
 /.metadata/
+Server/run/.lock
+/Server/config/components/integration_server
