@@ -1,0 +1,6 @@
+2024-06-16 16:07:44.878908Z: [Thread 3328] (Msg 1/1) BIP1990I: El servidor de integración 'Server' está empezando la inicialización; versión '12.0.8.0' (64 bits) 
+2024-06-16 16:07:44.903108Z: [Thread 3328] (Msg 1/1) BIP9905I: Inicializando gestores de recursos. 
+2024-06-16 16:07:54.431208Z: [Thread 3328] (Msg 1/1) BIP9906I: Leyendo recursos desplegados. 
+2024-06-16 16:07:55.823104Z: [Thread 10468] (Msg 1/1) BIP2866I: La administración de seguridad de IBM App Connect Enterprise es inactive. 
+2024-06-16 16:07:55.872760Z: [Thread 10468] (Msg 1/1) BIP3132I: El escucha HTTP ha empezado a escuchar en el puerto '7601' para conexiones 'RestAdmin http'. 
+2024-06-16 16:07:55.873500Z: [Thread 3328] (Msg 1/1) BIP1991I: El servidor de integración ha terminado la inicialización. 
