@@ -9,11 +9,11 @@ This project involves creating a flow that handles HTTP requests at the `/blob_t
 1. **Input Format**: The input message must be in BLOB format.
 2. **Parsing**: The BLOB message must be parsed into XML.
 3. **Fields to Fill**: 
-    - email
-    - firstname
-    - lastname
-    - middlename
-    - mobilePhone
+    - `email`
+    - `firstname`
+    - `lastname`
+    - `middlename`
+    - `mobilePhone`
 4. **Response**: The final XML message must be displayed in the HTTP response.
 
 ## Input Message
