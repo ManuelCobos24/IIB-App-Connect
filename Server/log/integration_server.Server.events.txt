@@ -1,6 +1,87 @@
-2024-06-16 16:07:44.878908Z: [Thread 3328] (Msg 1/1) BIP1990I: El servidor de integración 'Server' está empezando la inicialización; versión '12.0.8.0' (64 bits) 
-2024-06-16 16:07:44.903108Z: [Thread 3328] (Msg 1/1) BIP9905I: Inicializando gestores de recursos. 
-2024-06-16 16:07:54.431208Z: [Thread 3328] (Msg 1/1) BIP9906I: Leyendo recursos desplegados. 
-2024-06-16 16:07:55.823104Z: [Thread 10468] (Msg 1/1) BIP2866I: La administración de seguridad de IBM App Connect Enterprise es inactive. 
-2024-06-16 16:07:55.872760Z: [Thread 10468] (Msg 1/1) BIP3132I: El escucha HTTP ha empezado a escuchar en el puerto '7601' para conexiones 'RestAdmin http'. 
-2024-06-16 16:07:55.873500Z: [Thread 3328] (Msg 1/1) BIP1991I: El servidor de integración ha terminado la inicialización. 
+2024-06-17 10:04:43.644896Z: [Thread 1500] (Msg 1/1) BIP1990I: El servidor de integración 'Server' está empezando la inicialización; versión '12.0.8.0' (64 bits) 
+2024-06-17 10:04:43.714656Z: [Thread 1500] (Msg 1/1) BIP9905I: Inicializando gestores de recursos. 
+2024-06-17 10:05:27.145452Z: [Thread 1500] (Msg 1/1) BIP9906I: Leyendo recursos desplegados. 
+2024-06-17 10:05:27.193788Z: [Thread 1500] (Msg 1/1) BIP9907I: Inicializando recursos desplegados. 
+2024-06-17 10:05:27.201972Z: [Thread 1500] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'BLOB_TO_XML' de tipo 'Application'. 
+2024-06-17 10:05:27.923014Z: [Thread 1500] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'BLOB_TO_XML' de tipo 'Application'. 
+2024-06-17 10:05:28.051274Z: [Thread 1500] (Msg 1/1) BIP3132I: El escucha HTTP ha empezado a escuchar en el puerto '7801' para conexiones 'http'. 
+2024-06-17 10:05:28.055220Z: [Thread 1500] (Msg 1/1) BIP1996I: Escuchando por el URL HTTP '/blob_to_xml'. 
+2024-06-17 10:05:28.055538Z: [Thread 1500] (Msg 1/1) BIP2269I: El recurso desplegado 'blob_to_xml' (uuid='blob_to_xml',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2024-06-17 10:05:28.055664Z: [Thread 1500] (Msg 1/1) BIP9332I: Application 'BLOB_TO_XML' se ha reloaded correctamente. 
+2024-06-17 10:05:42.136636Z: [Thread 12340] (Msg 1/1) BIP2866I: La administración de seguridad de IBM App Connect Enterprise es inactive. 
+2024-06-17 10:05:42.314968Z: [Thread 12340] (Msg 1/1) BIP3132I: El escucha HTTP ha empezado a escuchar en el puerto '7601' para conexiones 'RestAdmin http'. 
+2024-06-17 10:05:42.319860Z: [Thread 1500] (Msg 1/1) BIP1991I: El servidor de integración ha terminado la inicialización. 
+2024-06-17 10:05:52.202684Z: [Thread 11424] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2024-06-17 10:05:52.257416Z: [Thread 11424] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:05:52.355340Z: [Thread 11424] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:05:52.356212Z: [Thread 11424] (Msg 1/1) BIP1996I: Escuchando por el URL HTTP '/blob_to_xml_qsp/Middlename/:middlename/mobilephone/:mobilePhone'. 
+2024-06-17 10:05:52.356744Z: [Thread 11424] (Msg 1/1) BIP2269I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2024-06-17 10:05:52.356872Z: [Thread 11424] (Msg 1/1) BIP9332I: Application 'BLOB_TO_XML_QS_&_P' se ha created correctamente. 
+2024-06-17 10:05:52.356964Z: [Thread 11424] (Msg 1/1) BIP9326I: El origen 'BLOB_TO_XML_QS_&_Pproject.generated.bar' se ha desplegado correctamente. 
+2024-06-17 10:05:52.357684Z: [Thread 11424] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2024-06-17 10:13:33.187184Z: [Thread 8420] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2024-06-17 10:13:33.219834Z: [Thread 8420] (Msg 1/1) BIP2155I: A punto de 'Stop' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:13:36.575352Z: [Thread 8420] (Msg 1/1) BIP2271I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2024-06-17 10:13:36.575536Z: [Thread 8420] (Msg 1/1) BIP2155I: A punto de 'TearDown' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:13:36.629316Z: [Thread 8420] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:13:36.714088Z: [Thread 8420] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:13:36.714616Z: [Thread 8420] (Msg 1/1) BIP1996I: Escuchando por el URL HTTP '/blob_to_xml_qsp/Middlename/:middlename/mobilephone/:mobilePhone'. 
+2024-06-17 10:13:36.714880Z: [Thread 8420] (Msg 1/1) BIP2269I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2024-06-17 10:13:36.715108Z: [Thread 8420] (Msg 1/1) BIP9332I: Application 'BLOB_TO_XML_QS_&_P' se ha changed correctamente. 
+2024-06-17 10:13:36.715212Z: [Thread 8420] (Msg 1/1) BIP9326I: El origen 'BLOB_TO_XML_QS_&_Pproject.generated.bar' se ha desplegado correctamente. 
+2024-06-17 10:13:36.715952Z: [Thread 8420] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2024-06-17 10:15:58.023860Z: [Thread 6004] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2024-06-17 10:15:58.062704Z: [Thread 6004] (Msg 1/1) BIP2155I: A punto de 'Stop' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:16:02.914478Z: [Thread 6004] (Msg 1/1) BIP2271I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2024-06-17 10:16:02.914681Z: [Thread 6004] (Msg 1/1) BIP2155I: A punto de 'TearDown' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:16:02.959589Z: [Thread 6004] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:16:03.029967Z: [Thread 6004] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:16:03.030484Z: [Thread 6004] (Msg 1/1) BIP1996I: Escuchando por el URL HTTP '/blob_to_xml_qsp/Middlename/:*/mobilephone/:*'. 
+2024-06-17 10:16:03.030758Z: [Thread 6004] (Msg 1/1) BIP2269I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2024-06-17 10:16:03.030874Z: [Thread 6004] (Msg 1/1) BIP9332I: Application 'BLOB_TO_XML_QS_&_P' se ha changed correctamente. 
+2024-06-17 10:16:03.030970Z: [Thread 6004] (Msg 1/1) BIP9326I: El origen 'BLOB_TO_XML_QS_&_Pproject.generated.bar' se ha desplegado correctamente. 
+2024-06-17 10:16:03.031682Z: [Thread 6004] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2024-06-17 10:19:35.150160Z: [Thread 2948] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2024-06-17 10:19:35.171428Z: [Thread 2948] (Msg 1/1) BIP2155I: A punto de 'Stop' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:19:38.842492Z: [Thread 2948] (Msg 1/1) BIP2271I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2024-06-17 10:19:38.842724Z: [Thread 2948] (Msg 1/1) BIP2155I: A punto de 'TearDown' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:19:38.884992Z: [Thread 2948] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:19:38.952064Z: [Thread 2948] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:19:38.952600Z: [Thread 2948] (Msg 1/1) BIP1996I: Escuchando por el URL HTTP '/blob_to_xml_qsp/Middlename/:*/mobilephone/:*'. 
+2024-06-17 10:19:38.952960Z: [Thread 2948] (Msg 1/1) BIP2269I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2024-06-17 10:19:38.953128Z: [Thread 2948] (Msg 1/1) BIP9332I: Application 'BLOB_TO_XML_QS_&_P' se ha changed correctamente. 
+2024-06-17 10:19:38.953240Z: [Thread 2948] (Msg 1/1) BIP9326I: El origen 'BLOB_TO_XML_QS_&_Pproject.generated.bar' se ha desplegado correctamente. 
+2024-06-17 10:19:38.954044Z: [Thread 2948] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2024-06-17 10:26:27.391810Z: [Thread 4548] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2024-06-17 10:26:27.422492Z: [Thread 4548] (Msg 1/1) BIP2155I: A punto de 'Stop' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:26:31.316480Z: [Thread 4548] (Msg 1/1) BIP2271I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2024-06-17 10:26:31.316758Z: [Thread 4548] (Msg 1/1) BIP2155I: A punto de 'TearDown' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:26:31.358612Z: [Thread 4548] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:26:31.430742Z: [Thread 4548] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:26:31.431276Z: [Thread 4548] (Msg 1/1) BIP1996I: Escuchando por el URL HTTP '/blob_to_xml_qsp/Middlename/:*/mobilephone/:*'. 
+2024-06-17 10:26:31.431600Z: [Thread 4548] (Msg 1/1) BIP2269I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2024-06-17 10:26:31.431858Z: [Thread 4548] (Msg 1/1) BIP9332I: Application 'BLOB_TO_XML_QS_&_P' se ha changed correctamente. 
+2024-06-17 10:26:31.431994Z: [Thread 4548] (Msg 1/1) BIP9326I: El origen 'BLOB_TO_XML_QS_&_Pproject.generated.bar' se ha desplegado correctamente. 
+2024-06-17 10:26:31.432930Z: [Thread 4548] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2024-06-17 10:32:15.572959Z: [Thread 21260] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2024-06-17 10:32:15.618396Z: [Thread 21260] (Msg 1/1) BIP2155I: A punto de 'Stop' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:32:18.288826Z: [Thread 21260] (Msg 1/1) BIP2271I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2024-06-17 10:32:18.289024Z: [Thread 21260] (Msg 1/1) BIP2155I: A punto de 'TearDown' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:32:18.352398Z: [Thread 21260] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:32:18.421372Z: [Thread 21260] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:32:18.421900Z: [Thread 21260] (Msg 1/1) BIP1996I: Escuchando por el URL HTTP '/blob_to_xml_qsp/:Middlename/*/:mobilephone/*'. 
+2024-06-17 10:32:18.422162Z: [Thread 21260] (Msg 1/1) BIP2269I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2024-06-17 10:32:18.422280Z: [Thread 21260] (Msg 1/1) BIP9332I: Application 'BLOB_TO_XML_QS_&_P' se ha changed correctamente. 
+2024-06-17 10:32:18.422374Z: [Thread 21260] (Msg 1/1) BIP9326I: El origen 'BLOB_TO_XML_QS_&_Pproject.generated.bar' se ha desplegado correctamente. 
+2024-06-17 10:32:18.423082Z: [Thread 21260] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2024-06-17 10:34:14.474607Z: [Thread 15820] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2024-06-17 10:34:14.525397Z: [Thread 15820] (Msg 1/1) BIP2155I: A punto de 'Stop' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:34:14.639607Z: [Thread 15820] (Msg 1/1) BIP2271I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2024-06-17 10:34:14.639796Z: [Thread 15820] (Msg 1/1) BIP2155I: A punto de 'TearDown' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:34:14.700782Z: [Thread 15820] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:34:14.772767Z: [Thread 15820] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-06-17 10:34:14.773249Z: [Thread 15820] (Msg 1/1) BIP1996I: Escuchando por el URL HTTP '/blob_to_xml_qsp/Middlename:/*/mobilephone:/*'. 
+2024-06-17 10:34:14.773576Z: [Thread 15820] (Msg 1/1) BIP2269I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2024-06-17 10:34:14.773744Z: [Thread 15820] (Msg 1/1) BIP9332I: Application 'BLOB_TO_XML_QS_&_P' se ha changed correctamente. 
+2024-06-17 10:34:14.773868Z: [Thread 15820] (Msg 1/1) BIP9326I: El origen 'BLOB_TO_XML_QS_&_Pproject.generated.bar' se ha desplegado correctamente. 
+2024-06-17 10:34:14.774775Z: [Thread 15820] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 

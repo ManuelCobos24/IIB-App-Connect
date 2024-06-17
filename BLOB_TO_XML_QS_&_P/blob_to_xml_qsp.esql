@@ -1,0 +1,40 @@
+
+
+CREATE COMPUTE MODULE blob_to_xml_qsp
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+        DECLARE array ROW;
+        
+        -- Se obtiene la información en formato BLOB y se parsea a XMLNSC
+        CREATE LASTCHILD OF array DOMAIN 'XMLNSC' PARSE(InputRoot.BLOB.BLOB ENCODING 546 CCSID 1208);
+        
+        -- Obtengo las Query String
+        SET array.XMLNSC.warehouseAddress.email = InputLocalEnvironment.HTTP.Input.QueryString.Email;
+        SET array.XMLNSC.warehouseAddress.firstname = InputLocalEnvironment.HTTP.Input.QueryString.Firstname;
+        SET array.XMLNSC.warehouseAddress.lastname = InputLocalEnvironment.HTTP.Input.QueryString.Lastname;
+        
+        -- Obtengo las Path Variables (asegúrate de que las posiciones sean correctas)
+        SET array.XMLNSC.warehouseAddress.middlename = InputLocalEnvironment.HTTP.Input.Path.Segment[3];
+        SET array.XMLNSC.warehouseAddress.mobilePhone = InputLocalEnvironment.HTTP.Input.Path.Segment[5];
+        
+        -- Se crea el hijo de salida en formato XMLNSC, se asigna la información actualizada, y se envía
+        CREATE LASTCHILD OF OutputRoot DOMAIN 'XMLNSC';
+        SET OutputRoot.Properties = InputRoot.Properties;
+        SET OutputRoot.XMLNSC = array.XMLNSC;
+		RETURN TRUE;
+	END;
+
+	CREATE PROCEDURE CopyMessageHeaders() BEGIN
+		DECLARE I INTEGER 1;
+		DECLARE J INTEGER;
+		SET J = CARDINALITY(InputRoot.*[]);
+		WHILE I < J DO
+			SET OutputRoot.*[I] = InputRoot.*[I];
+			SET I = I + 1;
+		END WHILE;
+	END;
+
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot = InputRoot;
+	END;
+END MODULE;
