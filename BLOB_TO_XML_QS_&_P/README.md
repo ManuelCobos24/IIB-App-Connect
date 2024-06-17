@@ -68,7 +68,7 @@ The format of the input message is as follows:
 ## Usage
 
 1. **Send an HTTP Request**:
-    Send an HTTP POST request to `http://localhost:7801/blob_to_xml_qsp/Middlename:/Cobos/mobilephone:/626736834?Email=manuel.cobos@viewnext.es&Firstname=Manuel&Lastname=Solis`.
+    Send an HTTP POST request to `http://HOST:PORT/blob_to_xml_qsp/Middlename:/Cobos/mobilephone:/626736834?Email=manuel.cobos@viewnext.es&Firstname=Manuel&Lastname=Solis`.
 2. **Receive the Response**:
     The response will be an XML document with the `email`, `firstname`, `lastname`, `middlename`, and `mobilePhone` fields filled.
 
