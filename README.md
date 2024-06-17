@@ -16,6 +16,10 @@ Welcome to the IIB App Connect repository! This repository contains multiple pro
   - Description: Integrates input from MQ queue and XML file to generate an XML response, incorporating data from an external HTTP request.
   - [Link to Project (Readme)](./MERGE_MQ_&_FILE_XML/README.md)
 
+- **Merge MQ Input with File Input into File Out.xml with Query String Params**
+  - Description: Integrates messaging from MQ queue and XML file processing to generate an XML response, incorporating data from an external HTTP request to the "BLOB_TO_XML_QS_&_P" flow.
+  - [Link to Project (Readme)](./MERGE_MQ_&_FILE_XML_QS/README.md)
+
 ## General Information
 
 The projects in this repository demonstrate various capabilities and integrations using IBM IIB App Connect. Each project folder contains detailed instructions, setup guides, and usage information specific to that project.
