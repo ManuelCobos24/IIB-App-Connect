@@ -2,3 +2,8 @@
 Server/run/.lock
 /Server/config/components/integration_server
 /Server
+*.txt
+/Server
+*.log
+/Server
+Server/console.log
