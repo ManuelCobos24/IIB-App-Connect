@@ -11,6 +11,10 @@ Welcome to the IIB App Connect repository! This repository contains multiple pro
 - **BLOB to XML With QueryString and URL Params**
   - Description: Converts input from a BLOB-formatted HTTP request with QueryParams in URL to an XML-formatted HTTP response.
   - [Link to Project (Readme)](./BLOB_TO_XML_QS_&_P/README.md)
+  
+- **Merge MQ Input with File Input into File Out.xml**
+  - Description: Integrates input from MQ queue and XML file to generate an XML response, incorporating data from an external HTTP request.
+  - [Link to Project (Readme)](./MERGE_MQ_&_FILE_XML/README.md)
 
 ## General Information
 
