@@ -85,3 +85,36 @@
 2024-06-17 10:34:14.773744Z: [Thread 15820] (Msg 1/1) BIP9332I: Application 'BLOB_TO_XML_QS_&_P' se ha changed correctamente. 
 2024-06-17 10:34:14.773868Z: [Thread 15820] (Msg 1/1) BIP9326I: El origen 'BLOB_TO_XML_QS_&_Pproject.generated.bar' se ha desplegado correctamente. 
 2024-06-17 10:34:14.774775Z: [Thread 15820] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2024-06-17 11:24:14.745421Z: [Thread 18276] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2024-06-17 11:24:14.849710Z: [Thread 18276] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'MERGE_MQ_&_FILE_XML' de tipo 'Application'. 
+2024-06-17 11:24:14.992088Z: [Thread 18276] (Msg 1/1) BIP3316W: El nodo de archivo 'File Write' del flujo de mensajes 'merge_mq_file_xml' no tiene ningún nombre de archivo válido especificado como propiedad ''. 
+2024-06-17 11:24:15.346051Z: [Thread 18276] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'MERGE_MQ_&_FILE_XML' de tipo 'Application'. 
+2024-06-17 11:24:15.346966Z: [Thread 18276] (Msg 1/1) BIP2269I: El recurso desplegado 'merge_mq_file_xml' (uuid='merge_mq_file_xml',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2024-06-17 11:24:15.347125Z: [Thread 18276] (Msg 1/1) BIP9332I: Application 'MERGE_MQ_&_FILE_XML' se ha created correctamente. 
+2024-06-17 11:24:15.347227Z: [Thread 18276] (Msg 1/1) BIP9326I: El origen 'MERGE_MQ_&_FILE_XMLproject.generated.bar' se ha desplegado correctamente. 
+2024-06-17 11:24:15.347942Z: [Thread 18276] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2024-06-17 11:26:12.657513Z: [Thread 2948] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2024-06-17 11:26:12.736877Z: [Thread 2948] (Msg 1/1) BIP2155I: A punto de 'Stop' el recurso desplegado 'MERGE_MQ_&_FILE_XML' de tipo 'Application'. 
+2024-06-17 11:26:14.808772Z: [Thread 2948] (Msg 1/1) BIP2271I: El recurso desplegado 'merge_mq_file_xml' (uuid='merge_mq_file_xml',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2024-06-17 11:26:14.808955Z: [Thread 2948] (Msg 1/1) BIP2155I: A punto de 'TearDown' el recurso desplegado 'MERGE_MQ_&_FILE_XML' de tipo 'Application'. 
+2024-06-17 11:26:14.875880Z: [Thread 2948] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'MERGE_MQ_&_FILE_XML' de tipo 'Application'. 
+2024-06-17 11:26:14.914038Z: [Thread 2948] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'MERGE_MQ_&_FILE_XML' de tipo 'Application'. 
+2024-06-17 11:26:14.914651Z: [Thread 2948] (Msg 1/1) BIP2269I: El recurso desplegado 'merge_mq_file_xml' (uuid='merge_mq_file_xml',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2024-06-17 11:26:14.914806Z: [Thread 2948] (Msg 1/1) BIP9332I: Application 'MERGE_MQ_&_FILE_XML' se ha changed correctamente. 
+2024-06-17 11:26:14.914927Z: [Thread 2948] (Msg 1/1) BIP9326I: El origen 'MERGE_MQ_&_FILE_XMLproject.generated.bar' se ha desplegado correctamente. 
+2024-06-17 11:26:14.915786Z: [Thread 2948] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2024-06-17 12:15:44.087344Z: [Thread 18332] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2024-06-17 12:15:44.177072Z: [Thread 18332] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'MERGE_MQ_&_FILE_XML_QS' de tipo 'Application'. 
+2024-06-17 12:15:44.248080Z: [Thread 18332] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'MERGE_MQ_&_FILE_XML_QS' de tipo 'Application'. 
+2024-06-17 12:15:44.249116Z: [Thread 18332] (Msg 1/1) BIP2269I: El recurso desplegado 'merge_mq_file_xml_qs' (uuid='merge_mq_file_xml_qs',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2024-06-17 12:15:44.249316Z: [Thread 18332] (Msg 1/1) BIP9332I: Application 'MERGE_MQ_&_FILE_XML_QS' se ha created correctamente. 
+2024-06-17 12:15:44.249464Z: [Thread 18332] (Msg 1/1) BIP9326I: El origen 'MERGE_MQ_&_FILE_XML_QSproject.generated.bar' se ha desplegado correctamente. 
+2024-06-17 12:15:44.250512Z: [Thread 18332] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2024-06-17 12:18:10.063066Z: [Thread 7932] (Msg 1/2) BIP2628W: Se ha detectado una condición de excepción en el nodo 'merge_mq_file_xml_qs.MQ Input'. 
+2024-06-17 12:18:10.063082Z: [Thread 18824] (Msg 1/2) BIP2628W: Se ha detectado una condición de excepción en el nodo 'merge_mq_file_xml.MQ Input'. 
+2024-06-17 12:18:10.063438Z: [Thread 7932] (Msg 2/2) BIP2680E: No se ha podido configurar una devolución de llamada de control de MQ para el componente 'merge_mq_file_xml_qs.MQ Input' en la cola 'QUEUE.IN' del gestor de colas 'Queue_manager': MQCC=2; MQRC=2161. 
+2024-06-17 12:18:10.063505Z: [Thread 18824] (Msg 2/2) BIP2680E: No se ha podido configurar una devolución de llamada de control de MQ para el componente 'merge_mq_file_xml.MQ Input' en la cola 'QUEUE.IN' del gestor de colas 'Queue_manager': MQCC=2; MQRC=2161. 
+2024-06-17 12:19:09.646364Z: [Thread 18824] (Msg 1/2) BIP2628W: Se ha detectado una condición de excepción en el nodo 'merge_mq_file_xml.MQ Input'. 
+2024-06-17 12:19:09.646486Z: [Thread 18824] (Msg 2/2) BIP2678E: No se ha podido realizar una conexión de servidor con el gestor de colas 'Queue_manager': MQCC=2; MQRC=2059. 
+2024-06-17 12:19:09.678191Z: [Thread 7932] (Msg 1/2) BIP2628W: Se ha detectado una condición de excepción en el nodo 'merge_mq_file_xml_qs.MQ Input'. 
+2024-06-17 12:19:09.678260Z: [Thread 7932] (Msg 2/2) BIP2678E: No se ha podido realizar una conexión de servidor con el gestor de colas 'Queue_manager': MQCC=2; MQRC=2059. 

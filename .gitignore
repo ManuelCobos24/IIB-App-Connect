@@ -7,3 +7,5 @@ Server/run/.lock
 *.log
 /Server
 Server/console.log
+*.log
+/Server
