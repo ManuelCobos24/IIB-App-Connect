@@ -21,8 +21,8 @@ Welcome to the IIB App Connect repository! This repository contains multiple pro
   - [Link to Project (Readme)](./MERGE_MQ_&_FILE_XML_QS/README.md)
 
 - **CHECK_AGE_PEOPLE**
-- Description: Implements an HTTP endpoint /CHECK_AGE_PEOPLE to receive XML payloads detailing individuals' information. It verifies ages to determine eligibility (TRUE for adults, FALSE for minors), generates individual XML files per person, and responds with processed XML encapsulated in CDATA.
-- [Link to Project (Readme)](./CHECK_AGE_PEOPLE/README.md)
+  - Description: Implements an HTTP endpoint /CHECK_AGE_PEOPLE to receive XML payloads detailing individuals' information. It verifies ages to determine eligibility (TRUE for adults, FALSE for minors), generates individual XML files per person, and responds with processed XML encapsulated in CDATA.
+  - [Link to Project (Readme)](./CHECK_AGE_PEOPLE/README.md)
   
 ## General Information
 
