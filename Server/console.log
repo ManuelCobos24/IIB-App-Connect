@@ -1,137 +1,55 @@
-2024-06-17 12:04:43.644896: BIP1990I: El servidor de integración 'Server' está empezando la inicialización; versión '12.0.8.0' (64 bits) 
-2024-06-17 12:04:43.714656: BIP9905I: Inicializando gestores de recursos. 
+2024-07-01 13:28:40.320488: BIP1990I: El servidor de integración 'Server' está empezando la inicialización; versión '12.0.8.0' (64 bits) 
+2024-07-01 13:28:40.369488: BIP9905I: Inicializando gestores de recursos. 
 Listening for transport dt_socket at address: 9998
-2024-06-17 12:05:27.145452: BIP9906I: Leyendo recursos desplegados. 
-2024-06-17 12:05:27.193788: BIP9907I: Inicializando recursos desplegados. 
-2024-06-17 12:05:27.201972: BIP2155I: A punto de 'Initialize' el recurso desplegado 'BLOB_TO_XML' de tipo 'Application'. 
-2024-06-17 12:05:27.923014: BIP2155I: A punto de 'Start' el recurso desplegado 'BLOB_TO_XML' de tipo 'Application'. 
+2024-07-01 13:29:19.746826: BIP9906I: Leyendo recursos desplegados. 
+2024-07-01 13:29:19.882436: BIP9907I: Inicializando recursos desplegados. 
+2024-07-01 13:29:19.888982: BIP2155I: A punto de 'Initialize' el recurso desplegado 'BLOB_TO_XML' de tipo 'Application'. 
+2024-07-01 13:29:19.959288: BIP2155I: A punto de 'Initialize' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-07-01 13:29:19.997018: BIP2155I: A punto de 'Initialize' el recurso desplegado 'MERGE_MQ_&_FILE_XML' de tipo 'Application'. 
+2024-07-01 13:29:20.609570: BIP2155I: A punto de 'Initialize' el recurso desplegado 'MERGE_MQ_&_FILE_XML_QS' de tipo 'Application'. 
+2024-07-01 13:29:21.575774: BIP2155I: A punto de 'Start' el recurso desplegado 'BLOB_TO_XML' de tipo 'Application'. 
 An http endpoint was registered on port '7801', path '/blob_to_xml'.
-2024-06-17 12:05:28.051274: BIP3132I: El escucha HTTP ha empezado a escuchar en el puerto '7801' para conexiones 'http'. 
-2024-06-17 12:05:28.055220: BIP1996I: Escuchando por el URL HTTP '/blob_to_xml'. 
+2024-07-01 13:29:21.655388: BIP3132I: El escucha HTTP ha empezado a escuchar en el puerto '7801' para conexiones 'http'. 
+2024-07-01 13:29:21.655534: BIP1996I: Escuchando por el URL HTTP '/blob_to_xml'. 
 Started native listener for HTTP input node on port 7801 for URL /blob_to_xml
-2024-06-17 12:05:28.055538: BIP2269I: El recurso desplegado 'blob_to_xml' (uuid='blob_to_xml',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
-2024-06-17 12:05:28.055664: BIP9332I: Application 'BLOB_TO_XML' se ha reloaded correctamente. 
-2024-06-17 12:05:42.136636: BIP2866I: La administración de seguridad de IBM App Connect Enterprise es inactive. 
-2024-06-17 12:05:42.314968: BIP3132I: El escucha HTTP ha empezado a escuchar en el puerto '7601' para conexiones 'RestAdmin http'. 
-2024-06-17 12:05:42.319860: BIP1991I: El servidor de integración ha terminado la inicialización. 
-2024-06-17 12:05:52.202684: BIP2152I: Se ha recibido el mensaje de configuración. 
-2024-06-17 12:05:52.257416: BIP2155I: A punto de 'Initialize' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
-2024-06-17 12:05:52.355340: BIP2155I: A punto de 'Start' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
-An http endpoint was registered on port '7801', path '/blob_to_xml_qsp/Middlename/:middlename/mobilephone/:mobilePhone'.
-2024-06-17 12:05:52.356212: BIP1996I: Escuchando por el URL HTTP '/blob_to_xml_qsp/Middlename/:middlename/mobilephone/:mobilePhone'. 
-Started native listener for HTTP input node on port 7801 for URL /blob_to_xml_qsp/Middlename/:middlename/mobilephone/:mobilePhone
-2024-06-17 12:05:52.356744: BIP2269I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
-2024-06-17 12:05:52.356872: BIP9332I: Application 'BLOB_TO_XML_QS_&_P' se ha created correctamente. 
-2024-06-17 12:05:52.356964: BIP9326I: El origen 'BLOB_TO_XML_QS_&_Pproject.generated.bar' se ha desplegado correctamente. 
-2024-06-17 12:05:52.357684: BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
-2024-06-17 12:13:33.187184: BIP2152I: Se ha recibido el mensaje de configuración. 
-2024-06-17 12:13:33.219834: BIP2155I: A punto de 'Stop' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
-2024-06-17 12:13:36.575352: BIP2271I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha detenido satisfactoriamente. 
-2024-06-17 12:13:36.575536: BIP2155I: A punto de 'TearDown' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
-2024-06-17 12:13:36.629316: BIP2155I: A punto de 'Initialize' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
-2024-06-17 12:13:36.714088: BIP2155I: A punto de 'Start' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
-An http endpoint was registered on port '7801', path '/blob_to_xml_qsp/Middlename/:middlename/mobilephone/:mobilePhone'.
-2024-06-17 12:13:36.714616: BIP1996I: Escuchando por el URL HTTP '/blob_to_xml_qsp/Middlename/:middlename/mobilephone/:mobilePhone'. 
-Started native listener for HTTP input node on port 7801 for URL /blob_to_xml_qsp/Middlename/:middlename/mobilephone/:mobilePhone
-2024-06-17 12:13:36.714880: BIP2269I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
-2024-06-17 12:13:36.715108: BIP9332I: Application 'BLOB_TO_XML_QS_&_P' se ha changed correctamente. 
-2024-06-17 12:13:36.715212: BIP9326I: El origen 'BLOB_TO_XML_QS_&_Pproject.generated.bar' se ha desplegado correctamente. 
-2024-06-17 12:13:36.715952: BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
-2024-06-17 12:15:58.023860: BIP2152I: Se ha recibido el mensaje de configuración. 
-2024-06-17 12:15:58.062704: BIP2155I: A punto de 'Stop' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
-2024-06-17 12:16:02.914478: BIP2271I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha detenido satisfactoriamente. 
-2024-06-17 12:16:02.914681: BIP2155I: A punto de 'TearDown' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
-2024-06-17 12:16:02.959589: BIP2155I: A punto de 'Initialize' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
-2024-06-17 12:16:03.029967: BIP2155I: A punto de 'Start' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
-An http endpoint was registered on port '7801', path '/blob_to_xml_qsp/Middlename/:*/mobilephone/:*'.
-2024-06-17 12:16:03.030484: BIP1996I: Escuchando por el URL HTTP '/blob_to_xml_qsp/Middlename/:*/mobilephone/:*'. 
-Started native listener for HTTP input node on port 7801 for URL /blob_to_xml_qsp/Middlename/:*/mobilephone/:*
-2024-06-17 12:16:03.030758: BIP2269I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
-2024-06-17 12:16:03.030874: BIP9332I: Application 'BLOB_TO_XML_QS_&_P' se ha changed correctamente. 
-2024-06-17 12:16:03.030970: BIP9326I: El origen 'BLOB_TO_XML_QS_&_Pproject.generated.bar' se ha desplegado correctamente. 
-2024-06-17 12:16:03.031682: BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
-2024-06-17 12:19:35.150160: BIP2152I: Se ha recibido el mensaje de configuración. 
-2024-06-17 12:19:35.171428: BIP2155I: A punto de 'Stop' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
-2024-06-17 12:19:38.842492: BIP2271I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha detenido satisfactoriamente. 
-2024-06-17 12:19:38.842724: BIP2155I: A punto de 'TearDown' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
-2024-06-17 12:19:38.884992: BIP2155I: A punto de 'Initialize' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
-2024-06-17 12:19:38.952064: BIP2155I: A punto de 'Start' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
-An http endpoint was registered on port '7801', path '/blob_to_xml_qsp/Middlename/:*/mobilephone/:*'.
-2024-06-17 12:19:38.952600: BIP1996I: Escuchando por el URL HTTP '/blob_to_xml_qsp/Middlename/:*/mobilephone/:*'. 
-Started native listener for HTTP input node on port 7801 for URL /blob_to_xml_qsp/Middlename/:*/mobilephone/:*
-2024-06-17 12:19:38.952960: BIP2269I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
-2024-06-17 12:19:38.953128: BIP9332I: Application 'BLOB_TO_XML_QS_&_P' se ha changed correctamente. 
-2024-06-17 12:19:38.953240: BIP9326I: El origen 'BLOB_TO_XML_QS_&_Pproject.generated.bar' se ha desplegado correctamente. 
-2024-06-17 12:19:38.954044: BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
-2024-06-17 12:26:27.391810: BIP2152I: Se ha recibido el mensaje de configuración. 
-2024-06-17 12:26:27.422492: BIP2155I: A punto de 'Stop' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
-2024-06-17 12:26:31.316480: BIP2271I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha detenido satisfactoriamente. 
-2024-06-17 12:26:31.316758: BIP2155I: A punto de 'TearDown' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
-2024-06-17 12:26:31.358612: BIP2155I: A punto de 'Initialize' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
-2024-06-17 12:26:31.430742: BIP2155I: A punto de 'Start' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
-An http endpoint was registered on port '7801', path '/blob_to_xml_qsp/Middlename/:*/mobilephone/:*'.
-2024-06-17 12:26:31.431276: BIP1996I: Escuchando por el URL HTTP '/blob_to_xml_qsp/Middlename/:*/mobilephone/:*'. 
-Started native listener for HTTP input node on port 7801 for URL /blob_to_xml_qsp/Middlename/:*/mobilephone/:*
-2024-06-17 12:26:31.431600: BIP2269I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
-2024-06-17 12:26:31.431858: BIP9332I: Application 'BLOB_TO_XML_QS_&_P' se ha changed correctamente. 
-2024-06-17 12:26:31.431994: BIP9326I: El origen 'BLOB_TO_XML_QS_&_Pproject.generated.bar' se ha desplegado correctamente. 
-2024-06-17 12:26:31.432930: BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
-2024-06-17 12:32:15.572959: BIP2152I: Se ha recibido el mensaje de configuración. 
-2024-06-17 12:32:15.618396: BIP2155I: A punto de 'Stop' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
-2024-06-17 12:32:18.288826: BIP2271I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha detenido satisfactoriamente. 
-2024-06-17 12:32:18.289024: BIP2155I: A punto de 'TearDown' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
-2024-06-17 12:32:18.352398: BIP2155I: A punto de 'Initialize' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
-2024-06-17 12:32:18.421372: BIP2155I: A punto de 'Start' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
-An http endpoint was registered on port '7801', path '/blob_to_xml_qsp/:Middlename/*/:mobilephone/*'.
-2024-06-17 12:32:18.421900: BIP1996I: Escuchando por el URL HTTP '/blob_to_xml_qsp/:Middlename/*/:mobilephone/*'. 
-Started native listener for HTTP input node on port 7801 for URL /blob_to_xml_qsp/:Middlename/*/:mobilephone/*
-2024-06-17 12:32:18.422162: BIP2269I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
-2024-06-17 12:32:18.422280: BIP9332I: Application 'BLOB_TO_XML_QS_&_P' se ha changed correctamente. 
-2024-06-17 12:32:18.422374: BIP9326I: El origen 'BLOB_TO_XML_QS_&_Pproject.generated.bar' se ha desplegado correctamente. 
-2024-06-17 12:32:18.423082: BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
-2024-06-17 12:34:14.474607: BIP2152I: Se ha recibido el mensaje de configuración. 
-2024-06-17 12:34:14.525397: BIP2155I: A punto de 'Stop' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
-2024-06-17 12:34:14.639607: BIP2271I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha detenido satisfactoriamente. 
-2024-06-17 12:34:14.639796: BIP2155I: A punto de 'TearDown' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
-2024-06-17 12:34:14.700782: BIP2155I: A punto de 'Initialize' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
-2024-06-17 12:34:14.772767: BIP2155I: A punto de 'Start' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
+2024-07-01 13:29:21.655952: BIP2269I: El recurso desplegado 'blob_to_xml' (uuid='blob_to_xml',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2024-07-01 13:29:21.656182: BIP9332I: Application 'BLOB_TO_XML' se ha reloaded correctamente. 
+2024-07-01 13:29:21.656420: BIP2155I: A punto de 'Start' el recurso desplegado 'BLOB_TO_XML_QS_&_P' de tipo 'Application'. 
 An http endpoint was registered on port '7801', path '/blob_to_xml_qsp/Middlename:/*/mobilephone:/*'.
-2024-06-17 12:34:14.773249: BIP1996I: Escuchando por el URL HTTP '/blob_to_xml_qsp/Middlename:/*/mobilephone:/*'. 
+2024-07-01 13:29:21.657020: BIP1996I: Escuchando por el URL HTTP '/blob_to_xml_qsp/Middlename:/*/mobilephone:/*'. 
 Started native listener for HTTP input node on port 7801 for URL /blob_to_xml_qsp/Middlename:/*/mobilephone:/*
-2024-06-17 12:34:14.773576: BIP2269I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
-2024-06-17 12:34:14.773744: BIP9332I: Application 'BLOB_TO_XML_QS_&_P' se ha changed correctamente. 
-2024-06-17 12:34:14.773868: BIP9326I: El origen 'BLOB_TO_XML_QS_&_Pproject.generated.bar' se ha desplegado correctamente. 
-2024-06-17 12:34:14.774775: BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
-2024-06-17 13:24:14.745421: BIP2152I: Se ha recibido el mensaje de configuración. 
-2024-06-17 13:24:14.849710: BIP2155I: A punto de 'Initialize' el recurso desplegado 'MERGE_MQ_&_FILE_XML' de tipo 'Application'. 
-2024-06-17 13:24:14.992088: BIP3316W: El nodo de archivo 'File Write' del flujo de mensajes 'merge_mq_file_xml' no tiene ningún nombre de archivo válido especificado como propiedad ''. 
-2024-06-17 13:24:15.346051: BIP2155I: A punto de 'Start' el recurso desplegado 'MERGE_MQ_&_FILE_XML' de tipo 'Application'. 
-2024-06-17 13:24:15.346966: BIP2269I: El recurso desplegado 'merge_mq_file_xml' (uuid='merge_mq_file_xml',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
-2024-06-17 13:24:15.347125: BIP9332I: Application 'MERGE_MQ_&_FILE_XML' se ha created correctamente. 
-2024-06-17 13:24:15.347227: BIP9326I: El origen 'MERGE_MQ_&_FILE_XMLproject.generated.bar' se ha desplegado correctamente. 
-2024-06-17 13:24:15.347942: BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
-2024-06-17 13:26:12.657513: BIP2152I: Se ha recibido el mensaje de configuración. 
-2024-06-17 13:26:12.736877: BIP2155I: A punto de 'Stop' el recurso desplegado 'MERGE_MQ_&_FILE_XML' de tipo 'Application'. 
-2024-06-17 13:26:14.808772: BIP2271I: El recurso desplegado 'merge_mq_file_xml' (uuid='merge_mq_file_xml',tipo='MessageFlow') se ha detenido satisfactoriamente. 
-2024-06-17 13:26:14.808955: BIP2155I: A punto de 'TearDown' el recurso desplegado 'MERGE_MQ_&_FILE_XML' de tipo 'Application'. 
-2024-06-17 13:26:14.875880: BIP2155I: A punto de 'Initialize' el recurso desplegado 'MERGE_MQ_&_FILE_XML' de tipo 'Application'. 
-2024-06-17 13:26:14.914038: BIP2155I: A punto de 'Start' el recurso desplegado 'MERGE_MQ_&_FILE_XML' de tipo 'Application'. 
-2024-06-17 13:26:14.914651: BIP2269I: El recurso desplegado 'merge_mq_file_xml' (uuid='merge_mq_file_xml',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
-2024-06-17 13:26:14.914806: BIP9332I: Application 'MERGE_MQ_&_FILE_XML' se ha changed correctamente. 
-2024-06-17 13:26:14.914927: BIP9326I: El origen 'MERGE_MQ_&_FILE_XMLproject.generated.bar' se ha desplegado correctamente. 
-2024-06-17 13:26:14.915786: BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
-2024-06-17 14:15:44.087344: BIP2152I: Se ha recibido el mensaje de configuración. 
-2024-06-17 14:15:44.177072: BIP2155I: A punto de 'Initialize' el recurso desplegado 'MERGE_MQ_&_FILE_XML_QS' de tipo 'Application'. 
-2024-06-17 14:15:44.248080: BIP2155I: A punto de 'Start' el recurso desplegado 'MERGE_MQ_&_FILE_XML_QS' de tipo 'Application'. 
-2024-06-17 14:15:44.249116: BIP2269I: El recurso desplegado 'merge_mq_file_xml_qs' (uuid='merge_mq_file_xml_qs',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
-2024-06-17 14:15:44.249316: BIP9332I: Application 'MERGE_MQ_&_FILE_XML_QS' se ha created correctamente. 
-2024-06-17 14:15:44.249464: BIP9326I: El origen 'MERGE_MQ_&_FILE_XML_QSproject.generated.bar' se ha desplegado correctamente. 
-2024-06-17 14:15:44.250512: BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
-2024-06-17 14:18:10.063066: BIP2628W: Se ha detectado una condición de excepción en el nodo 'merge_mq_file_xml_qs.MQ Input'. 
-2024-06-17 14:18:10.063082: BIP2628W: Se ha detectado una condición de excepción en el nodo 'merge_mq_file_xml.MQ Input'. 
-2024-06-17 14:18:10.063438: BIP2680E: No se ha podido configurar una devolución de llamada de control de MQ para el componente 'merge_mq_file_xml_qs.MQ Input' en la cola 'QUEUE.IN' del gestor de colas 'Queue_manager': MQCC=2; MQRC=2161. 
-2024-06-17 14:18:10.063505: BIP2680E: No se ha podido configurar una devolución de llamada de control de MQ para el componente 'merge_mq_file_xml.MQ Input' en la cola 'QUEUE.IN' del gestor de colas 'Queue_manager': MQCC=2; MQRC=2161. 
-2024-06-17 14:19:09.646364: BIP2628W: Se ha detectado una condición de excepción en el nodo 'merge_mq_file_xml.MQ Input'. 
-2024-06-17 14:19:09.646486: BIP2678E: No se ha podido realizar una conexión de servidor con el gestor de colas 'Queue_manager': MQCC=2; MQRC=2059. 
-2024-06-17 14:19:09.678191: BIP2628W: Se ha detectado una condición de excepción en el nodo 'merge_mq_file_xml_qs.MQ Input'. 
-2024-06-17 14:19:09.678260: BIP2678E: No se ha podido realizar una conexión de servidor con el gestor de colas 'Queue_manager': MQCC=2; MQRC=2059. 
+2024-07-01 13:29:21.657304: BIP2269I: El recurso desplegado 'blob_to_xml_qsp' (uuid='blob_to_xml_qsp',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2024-07-01 13:29:21.657440: BIP9332I: Application 'BLOB_TO_XML_QS_&_P' se ha reloaded correctamente. 
+2024-07-01 13:29:21.657592: BIP2155I: A punto de 'Start' el recurso desplegado 'MERGE_MQ_&_FILE_XML' de tipo 'Application'. 
+2024-07-01 13:29:21.658218: BIP2269I: El recurso desplegado 'merge_mq_file_xml' (uuid='merge_mq_file_xml',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2024-07-01 13:29:21.658424: BIP9332I: Application 'MERGE_MQ_&_FILE_XML' se ha reloaded correctamente. 
+2024-07-01 13:29:21.658706: BIP2155I: A punto de 'Start' el recurso desplegado 'MERGE_MQ_&_FILE_XML_QS' de tipo 'Application'. 
+2024-07-01 13:29:21.659398: BIP2269I: El recurso desplegado 'merge_mq_file_xml_qs' (uuid='merge_mq_file_xml_qs',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2024-07-01 13:29:21.659590: BIP9332I: Application 'MERGE_MQ_&_FILE_XML_QS' se ha reloaded correctamente. 
+2024-07-01 13:29:22.501052: BIP2628W: Se ha detectado una condición de excepción en el nodo 'merge_mq_file_xml.MQ Input'. 
+2024-07-01 13:29:22.501226: BIP2678E: No se ha podido realizar una conexión de servidor con el gestor de colas 'Queue_manager': MQCC=2; MQRC=2059. 
+2024-07-01 13:29:22.589394: BIP2628W: Se ha detectado una condición de excepción en el nodo 'merge_mq_file_xml_qs.MQ Input'. 
+2024-07-01 13:29:22.589550: BIP2678E: No se ha podido realizar una conexión de servidor con el gestor de colas 'Queue_manager': MQCC=2; MQRC=2059. 
+2024-07-01 13:29:35.083316: BIP2866I: La administración de seguridad de IBM App Connect Enterprise es inactive. 
+2024-07-01 13:29:35.232732: BIP3132I: El escucha HTTP ha empezado a escuchar en el puerto '7601' para conexiones 'RestAdmin http'. 
+2024-07-01 13:29:35.234060: BIP1991I: El servidor de integración ha terminado la inicialización. 
+2024-07-01 13:30:22.105400: BIP2628W: Se ha detectado una condición de excepción en el nodo 'merge_mq_file_xml.MQ Input'. 
+2024-07-01 13:30:22.105612: BIP2678E: No se ha podido realizar una conexión de servidor con el gestor de colas 'Queue_manager': MQCC=2; MQRC=2059. 
+2024-07-01 13:30:22.198884: BIP2628W: Se ha detectado una condición de excepción en el nodo 'merge_mq_file_xml_qs.MQ Input'. 
+2024-07-01 13:30:22.198988: BIP2678E: No se ha podido realizar una conexión de servidor con el gestor de colas 'Queue_manager': MQCC=2; MQRC=2059. 
+2024-07-01 13:39:29.143592: BIP2628W: Se ha detectado una condición de excepción en el nodo 'merge_mq_file_xml.MQ Input'. 
+2024-07-01 13:39:29.143688: BIP2678E: No se ha podido realizar una conexión de servidor con el gestor de colas 'Queue_manager': MQCC=2; MQRC=2059. 
+2024-07-01 13:39:29.283768: BIP2628W: Se ha detectado una condición de excepción en el nodo 'merge_mq_file_xml_qs.MQ Input'. 
+2024-07-01 13:39:29.283858: BIP2678E: No se ha podido realizar una conexión de servidor con el gestor de colas 'Queue_manager': MQCC=2; MQRC=2059. 
+2024-07-01 13:41:01.117603: BIP2152I: Se ha recibido el mensaje de configuración. 
+2024-07-01 13:41:01.289245: BIP2155I: A punto de 'Initialize' el recurso desplegado 'CHECK_AGE_PEOPLE' de tipo 'Application'. 
+2024-07-01 13:41:01.329696: BIP3314W: El nodo de archivo 'File Output' del flujo de mensajes 'check_age_people' no puede escribir en el directorio de salida ''. 
+2024-07-01 13:41:01.330128: BIP3316W: El nodo de archivo 'File Output' del flujo de mensajes 'check_age_people' no tiene ningún nombre de archivo válido especificado como propiedad ''. 
+2024-07-01 13:41:01.356501: BIP2155I: A punto de 'Start' el recurso desplegado 'CHECK_AGE_PEOPLE' de tipo 'Application'. 
+An http endpoint was registered on port '7801', path '/check_age_people'.
+2024-07-01 13:41:01.357129: BIP1996I: Escuchando por el URL HTTP '/check_age_people'. 
+Started native listener for HTTP input node on port 7801 for URL /check_age_people
+2024-07-01 13:41:01.357556: BIP2269I: El recurso desplegado 'check_age_people' (uuid='check_age_people',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2024-07-01 13:41:01.357749: BIP9332I: Application 'CHECK_AGE_PEOPLE' se ha created correctamente. 
+2024-07-01 13:41:01.357873: BIP9326I: El origen 'CHECK_AGE_PEOPLEproject.generated.bar' se ha desplegado correctamente. 
+2024-07-01 13:41:01.358799: BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 

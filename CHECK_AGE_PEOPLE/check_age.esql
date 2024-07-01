@@ -1,0 +1,65 @@
+
+
+CREATE COMPUTE MODULE check_age
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+	-- Declare an array variable named 'array'.
+	DECLARE array ROW;
+	
+	-- Parse the XML data from InputRoot.BLOB.BLOB into the 'array' variable.
+	CREATE LASTCHILD OF array DOMAIN 'XMLNSC' PARSE(InputRoot.BLOB.BLOB ENCODING 546 CCSID 1208);
+	
+	-- Reference the first 'Persona' element within the parsed XML structure.
+	DECLARE Persona REFERENCE TO array.XMLNSC.Personas.Persona[1];
+	
+	-- Create the XML structure for OutputRoot.
+	CREATE LASTCHILD OF OutputRoot DOMAIN 'XMLNSC';
+	
+	-- Loop through each 'Persona' element in the array.
+	WHILE LASTMOVE (Persona) DO
+	    
+	    -- Determine if the person is eligible based on age.
+	    IF Persona.Edad >= 18 THEN
+	        SET Persona.Apto = TRUE;
+	    ELSEIF Persona.Edad < 18 THEN
+	        SET Persona.Apto = FALSE;
+	    ELSE
+	        SET Persona.Apto = 'n/a';
+	    END IF;
+	    
+	    -- Set the directory and file name for output file.
+	    SET OutputLocalEnvironment.Destination.File.Directory = 'D:\GitHub\IBM IIB App Connect\IIB-App-Connect\CHECK_AGE_PEOPLE';           
+	    SET OutputLocalEnvironment.Destination.File.Name = Persona.Nombre || '_' || Persona.Apellido || '.xml';
+	    
+	    -- Set the output XML structure for OutputRoot.
+	    SET OutputRoot.XMLNSC.Persona = Persona;
+	    
+	    -- Propagate the modified message to the 'out1' terminal.
+	    PROPAGATE TO TERMINAL 'out1';
+	    
+	    -- Move to the next 'Persona' sibling within the array.
+	    MOVE Persona NEXTSIBLING;
+	END WHILE;
+	
+	-- Extract CDATA from the input BLOB and assign it to 'cdata'.
+	DECLARE cdata CHAR CAST(InputRoot.BLOB.BLOB AS CHAR CCSID InputRoot.Properties.CodedCharSetId);
+	
+	-- Set the extracted CDATA into the output XML structure.
+	SET OutputRoot.XMLNSC.Salida.(XMLNSC.CDataField)XMLEntrada = cdata;
+		RETURN TRUE;
+	END;
+
+	CREATE PROCEDURE CopyMessageHeaders() BEGIN
+		DECLARE I INTEGER 1;
+		DECLARE J INTEGER;
+		SET J = CARDINALITY(InputRoot.*[]);
+		WHILE I < J DO
+			SET OutputRoot.*[I] = InputRoot.*[I];
+			SET I = I + 1;
+		END WHILE;
+	END;
+
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot = InputRoot;
+	END;
+END MODULE;
