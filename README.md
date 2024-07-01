@@ -20,6 +20,10 @@ Welcome to the IIB App Connect repository! This repository contains multiple pro
   - Description: Integrates messaging from MQ queue and XML file processing to generate an XML response, incorporating data from an external HTTP request to the "BLOB_TO_XML_QS_&_P" flow.
   - [Link to Project (Readme)](./MERGE_MQ_&_FILE_XML_QS/README.md)
 
+- **CHECK_AGE_PEOPLE**
+- Description: Implements an HTTP endpoint /CHECK_AGE_PEOPLE to receive XML payloads detailing individuals' information. It verifies ages to determine eligibility (TRUE for adults, FALSE for minors), generates individual XML files per person, and responds with processed XML encapsulated in CDATA.
+- [Link to Project (Readme)](./CHECK_AGE_PEOPLE/README.md)
+  
 ## General Information
 
 The projects in this repository demonstrate various capabilities and integrations using IBM IIB App Connect. Each project folder contains detailed instructions, setup guides, and usage information specific to that project.
